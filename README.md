@@ -1,6 +1,10 @@
 🚀 Proje Başlığı: End-to-End Automated CI/CD Pipeline with Docker & GitHub Actions
+
+
+
 📋 Proje Özeti
 Bu proje, manuel uygulama paketleme ve dağıtım süreçlerini tamamen otonom hale getiren modern bir DevOps hattını temsil eder. Bir web uygulamasının geliştirme aşamasından bulut deposuna (Docker Hub) kadar olan yolculuğu, GitHub Actions kullanılarak "Zero-Touch" (El değmeden) prensibiyle kurgulanmıştır.
+
 
 🛠️ Kullanılan Teknolojiler & Mimari
 Linux (Ubuntu): Geliştirme ortamı ve sistem yönetimi.
