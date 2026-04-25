@@ -1,28 +1,24 @@
-🚀 Proje Başlığı: End-to-End Automated CI/CD Pipeline with Docker & GitHub Actions
+🚀 Project Title: End-to-End Automated CI/CD Pipeline with Docker & GitHub Actions
+📋 Project Overview
+This project represents a modern DevOps pipeline that transforms manual application packaging and deployment into a fully autonomous workflow. Using a "Zero-Touch" principle, the journey of a web application—from the initial development phase to the cloud registry (Docker Hub)—is orchestrated entirely through GitHub Actions.
 
+🛠️ Technologies & Architecture
+Linux (Ubuntu): Development environment and core system administration.
 
+Docker: Application containerization and image management.
 
-📋 Proje Özeti
-Bu proje, manuel uygulama paketleme ve dağıtım süreçlerini tamamen otonom hale getiren modern bir DevOps hattını temsil eder. Bir web uygulamasının geliştirme aşamasından bulut deposuna (Docker Hub) kadar olan yolculuğu, GitHub Actions kullanılarak "Zero-Touch" (El değmeden) prensibiyle kurgulanmıştır.
+GitHub Actions: Continuous Integration (CI) automation engine.
 
+Git: Version control and source code management.
 
-🛠️ Kullanılan Teknolojiler & Mimari
-Linux (Ubuntu): Geliştirme ortamı ve sistem yönetimi.
+Docker Hub: Centralized cloud registry for container images.
 
-Docker: Uygulamanın konteynerize edilmesi ve imaj yönetimi.
+💡 Technical Solutions & Key Achievements
+Workflow Automation: By implementing a workflow triggered by the git push command, manual build and push operations were replaced by a robust, robotic process.
 
-GitHub Actions: Sürekli Entegrasyon (CI) otomasyonu.
+Security Best Practices: Sensitive credentials (such as Docker Hub passwords) are securely managed using the GitHub Secrets vault architecture, ensuring zero exposure in the source code.
 
-Git: Versiyon kontrolü ve kaynak kod yönetimi.
+Troubleshooting & Resilience: During the implementation phase, critical obstacles such as Personal Access Token (PAT) authorization issues (Workflow Scopes) and network-related SSH Timeouts were successfully resolved through proactive log analysis and system tuning.
 
-Docker Hub: Merkezi bulut imaj deposu.
-
-💡 Teknik Çözümler ve Kazanımlar
-Otomasyon (Automation): git push komutu ile tetiklenen workflow sayesinde, manuel build ve push işlemleri robotik bir sürece devredilmiştir.
-
-Güvenlik (Security): Hassas veriler (Docker şifreleri) GitHub Secrets (Kasa) mimarisi kullanılarak güvenli bir şekilde yönetilmiştir.
-
-Problem Çözme (Troubleshooting): Proje sürecinde karşılaşılan "Personal Access Token" yetkilendirme (Workflow Scope) ve ağ kesintisi (SSH Timeout) gibi kritik engeller, log analizleri ve sistem müdahalesiyle başarıyla aşılmıştır.
-
-📈 Sonuç
-Bu mimari sayesinde, kod üzerinde yapılan herhangi bir değişiklik 60 saniyeden kısa bir sürede otomatik olarak paketlenip dünyanın her yerinden erişilebilir bir "Container Image" haline gelmektedir.
+📈 Final Outcome
+Through this architecture, any code change is automatically packaged and transformed into a production-ready Container Image in under 60 seconds, making it accessible and deployable from anywhere in the world.
